@@ -1,4 +1,4 @@
-Into to Bootstrap
+Intro to Bootstrap
 
 Bootstrap 4 drills in bootstrap folder
 
