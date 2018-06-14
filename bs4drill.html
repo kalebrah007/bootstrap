@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Setup Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">First Bootstrap Project</h1> 
+    <div class="row">
+      <div class="col-md-4 bg-primary">
+        <h2>Felt</h2>
+      </div>
+      <div class="col-md-4 bg-secondary">
+        <h2>Ballpoint</h2>
+      </div>
+      <div class="col-md-4 bg-success">
+        <h2>Feathertip</h2>
+      </div> 
+    </div>
+    
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> 
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <button type="submit" btn btn-danger>Submit</button>
+      <h4>Which do you prefer?</h4>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" value="">
+        <label class="form-check-label" for="exampleCheck1">Dogs</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck2" value="" cats>
+        <label class="form-check-label" for="exampleCheck2">Cats</label>
+      </div>
+      <h4>Which do you prefer?</h4>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+        <label class="form-check-label" for="exampleRadios1">Cheese Pizza</label> 
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+        <label class="form-check-label" for="exampleRadios2">Vegetable Pizza</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+        <label class="form-check-label" for="exampleRadios3">Meat Pizza</label>
+      </div>
+    </form> 
+    <h3 class="text-center">For Sale</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card header">
+              <h3>Nails</h3>
+            </div>
+            <div class="body">
+              <p>Grip Rite Fasteners. Exterior Galvanized Common. 4d 1-1/2" 3.81cm</p>
+              <button class="btn btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card header">
+              <h3>Gum</h3>
+            </div>
+            <div class="body">
+              <p>Wrigley's Orbit. Spearmint DoublePak. 28Pieces</p>
+              <button class="btn btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card header">
+              <h3>Mini Helmet</h3>
+            </div>
+            <div class="body">
+              <p>NFL Hall of Fame. Canton Bulldogs Mini Helmet. Limited Edition 1 of 250.</p>
+              <button class="btn btn-danger">Add to cart</button>
+            </div>
+          </div> 
+        </div>
+      
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card header">
+              <h3>Speaker Set</h3>
+            </div>
+            <div class="body">
+              <p>Frisby Speaker Set.
+                Two Speakers plus volume control.Subwoofer included.
+              </p>
+              <button class="btn btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card header">
+              <h3>Christmas Lights</h3>
+            </div>
+            <div class="body">
+              <p>Christmas Lights. Classic Set. 25 Count</p>
+              <button class="btn btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card header">
+              <h3>Walking Stick</h3>
+            </div>
+            <div class="body">
+              <p>Bamboo Walking stick. Electrical Tape Grip. Forged in River of Stix.</p>
+              <button class="btn btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>  
+    </div>
+    
+  </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+
+
+
