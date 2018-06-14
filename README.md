@@ -1,7 +1,10 @@
 Into to Bootstrap
+
 Bootstrap 4 drills in bootstrap folder
-bs4drill html file
-for cards did not do friends and paragraphs
+
+bs4drill is html file
+
+Cards section did not do friends and paragraphs
 did 6 items for sale instead
 
 Objectives
