@@ -1,6 +1,8 @@
 Into to Bootstrap
 Bootstrap 4 drills in bootstrap folder
 bs4drill html file
+for cards did not do friends and paragraphs
+did 6 items for sale instead
 
 Objectives
 Practice pulling in Bootstrap 4’s CDN and using its class based styling.
